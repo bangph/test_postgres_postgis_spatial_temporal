@@ -1,0 +1,5 @@
+EXPLAIN ANALYZE
+SELECT coverage_id
+FROM test_time_index
+where       start_time >= TO_TIMESTAMP('2011-01-01', 'YYYY-MM-DD"T"HH24:MI:SS:MS"Z"')
+      AND   end_time <= TO_TIMESTAMP('2015-01-01', 'YYYY-MM-DD"T"HH24:MI:SS:MS"Z"')
