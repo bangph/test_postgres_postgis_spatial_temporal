@@ -1,0 +1,2 @@
+Install postgis with: sudo apt install postgis
+and posgresql's driver psycopg2: pip install psycopg2
