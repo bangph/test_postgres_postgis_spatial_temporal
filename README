@@ -1,2 +1,5 @@
 Install postgis with: sudo apt install postgis
 and posgresql's driver psycopg2: pip install psycopg2
+
+run files in order: 1-, 2-, 3-, 4-
+and change the query in input_query file then run: python 5-run_query.py
